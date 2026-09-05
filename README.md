@@ -1,6 +1,6 @@
 # n8n-webhook-agent-bridge
 
-Hi — I am Md Tanvir Alam ([tanvir-ux](https://github.com/tanvir-ux)). This is a **small FastAPI bridge** that receives webhooks from **n8n** and calls an LLM/tool stub. I use this pattern when a workflow needs a custom agent step that n8n’s built-in nodes do not cover yet.
+**Small FastAPI bridge** that receives webhooks from **n8n** and calls an LLM/tool stub. Handy when a workflow needs a custom agent step that n8n’s built-in nodes do not cover yet.
 
 ## Flow
 
@@ -81,9 +81,5 @@ curl -s -X POST http://127.0.0.1:8090/webhook/n8n \
 | `PORT` | Documented default **8090** |
 
 No secrets are committed — only `.env.example`.
-
-## Author
-
-Md Tanvir Alam — [github.com/tanvir-ux](https://github.com/tanvir-ux)
 
 MIT License.
